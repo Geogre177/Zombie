@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Movie credits</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url("https://fonts.google.com/?query=sp&selection.family=Special+Elite");
+@font-face {
+  font-family: 'Special Elite', cursive;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Special Elite"), local("Special Elite"), url(https://fonts.googleapis.com/css?family=Special+Elite) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+  font-family: 'special elite';
+  src: url("https://fonts.google.com/?query=sp&selection.family=Special+Elite");
+  /* IE9 Compat Modes */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 50px;
+}
+body {
+background-image:url('file:///C:/Users/C-M@N/Dropbox/App%20Inventor%20Team%20Folder/App%20Inventors/Zobie%20game/animation3%20pics/once%20with%20custom%20title.gif');
+background-size:102%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:200%;
+width:100%;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Special Elite', cursive;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Special Elite', cursive;
+}
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 60s credits linear infinite;
+}
+
+.movie {
+  color: yellow;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.job {
+  color: Chartreuse;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name {
+  color: orange;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+@keyframes credits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -500%;
+  }
+}
+button{
+ border: black;
+ color: white;
+ align: center;
+ background-color: black;
+ margin-top: 50%;
+ margin-left: 10%;
+}
+button:hover{
+  cursor: pointer;
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
+  var x = document.getElementById('button');
+  $(document).ready(function(){
+  jQuery.expr.filters.offscreen = function(x) {
+
+  };
+});
+  </script>
+
+</head>
+
+<body>
+  <div class='wrapper'>
+  <div class='movie'>Midnight</div>
+  <div class='movie'>Zombie</div>
+  <div class='movie'>Sabotage</div>
+  <div class='job'>Created By</div>
+  <div class='name'>Jon Dyer</div>
+  <div class='job'>App Coded By</div>
+  <div class='name'>Zade Micallef</div>
+  <div class='job'>Animations And Credits By</div>
+  <div class='name'>Caleb Collins</div>
+  <div class='job'>Voice Talent</div>
+  <div class='name'>Bill Patton</div>
+  <div class='job'>Artist</div>
+  <div class='name'>Anton Brand</div>
+</div>
+<div id = "button" pause: 30s; class='button'><a href="home.html"><button id="start_button" type="button">Play Again</button></a></div>
+
+</body>
+</html>
