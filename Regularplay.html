@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script type="text/javascript">
+  var box1= 0;
+  var box2= 0;
+  var box3= 0;
+  var box4= 0;
+  var box5= 0;
+  var box6= 0;
+  var box7= 0;
+  var box8= 0;
+  var box9= 0;
+  var box10= 0;
+  var box11= 0;
+  var box12= 0;
+  var box13= 0;
+  var box14= 0;
+  var box15= 0;
+  var box16= 0;
+$(document).ready(function(){
+  var $timer = $("#timer")
+
+  //Highlight
+  $('body').on('click','#camo',function(){
+        box1 ++;
+        var boxR1= "Red";
+        if (box1 % 2 === 0){
+          $("#camo").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+        } else {
+          $("#camo").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+        };
+    });
+    $('body').on('click','#disillusioned',function(){
+          box2 ++;
+          var boxR2= "Red";
+          if (box2 % 2 === 0){
+            $("#disillusioned").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+          } else {
+            $("#disillusioned").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+          };
+      });
+      $('body').on('click','#doctor',function(){
+            box3 ++;
+            var boxR3= "Red";
+            if (box3 % 2 === 0){
+              $("#doctor").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+            } else {
+              $("#doctor").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+            };
+      });
+      $('body').on('click','#drifter',function(){
+            box4 ++;
+            var boxR4= "Red";
+            if (box4 % 2 === 0){
+              $("#drifter").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+            } else {
+              $("#drifter").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+            };
+        });
+        $('body').on('click','#villager',function(){
+              box5 ++;
+              var boxR5= "Red";
+              if (box5 % 2 === 0){
+                $("#villager").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+              } else {
+                $("#villager").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+              };
+          });
+            $('body').on('click','#villager2',function(){
+                  box6 ++;
+                  var boxR6= "Red";
+                  if (box6 % 2 === 0){
+                    $("#villager2").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                  } else {
+                    $("#villager2").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                  };
+              });
+              $('body').on('click','#hero',function(){
+                    box7 ++;
+                    var boxR7= "Red";
+                    if (box7 % 2 === 0){
+                      $("#hero").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                    } else {
+                      $("#hero").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                    };
+                });
+                $('body').on('click','#children',function(){
+                      box8 ++;
+                      var boxR8= "Red";
+                      if (box8 % 2 === 0){
+                        $("#children").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                      } else {
+                        $("#children").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                      };
+                  });
+                  $('body').on('click','#maniac',function(){
+                        box9 ++;
+                        var boxR9= "Red";
+                        if (box9 % 2 === 0){
+                          $("#maniac").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                        } else {
+                          $("#maniac").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                        };
+                    });
+                    $('body').on('click','#scientist',function(){
+                          box10 ++;
+                          var boxR10= "Red";
+                          if (box10 % 2 === 0){
+                            $("#scientist").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                          } else {
+                            $("#scientist").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                          };
+                      });
+                      $('body').on('click','#scout',function(){
+                            box11 ++;
+                            var boxR11= "Red";
+                            if (box11 % 2 === 0){
+                              $("#scout").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                            } else {
+                              $("#scout").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                            };
+                        });
+                        $('body').on('click','#surgeon',function(){
+                              box12 ++;
+                              var boxR12= "Red";
+                              if (box12 % 2 === 0){
+                                $("#surgeon").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                              } else {
+                                $("#surgeon").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                              };
+                          });
+                          $('body').on('click','#survivalist',function(){
+                                box13 ++;
+                                var boxR13= "Red";
+                                if (box13 % 2 === 0){
+                                  $("#survivalist").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                                } else {
+                                  $("#survivalist").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                                };
+                            });
+                            $('body').on('click','#undead',function(){
+                                  box14 ++;
+                                  var boxR14= "Red";
+                                  if (box14 % 2 === 0){
+                                    $("#undead").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                                  } else {
+                                    $("#undead").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                                  };
+                              });
+                              $('body').on('click','#zombie1',function(){
+                                    box15 ++;
+                                    var boxR15= "Red";
+                                    if (box15 % 2 === 0){
+                                      $("#zombie1").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                                    } else {
+                                      $("#zombie1").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                                    };
+                                });
+                                $('body').on('click','#zombie2',function(){
+                                      box16 ++;
+                                      var boxR16= "Red";
+                                      if (box16 % 2 === 0){
+                                        $("#zombie2").css({"border-color": "#000000", "border-width":"2px", "border-style":"solid"});
+                                      } else {
+                                        $("#zombie2").css({"border-color": "#ffff00", "border-width":"2px", "border-style":"solid"});
+                                      };
+                                  });
+                                  //Narrorations
+                                  var x = document.getElementById('Ready');
+                                  var audio1 = new Audio('./Rsounds/1.0 night.wav');
+                                  var audio2 = new Audio('./Rsounds/2.0 zombies.wav');
+                                  var audio3 = new Audio('./Rsounds/3.0 drifter.wav');
+                                  var audio4 = new Audio('./Rsounds/4.0 mad scientist.wav');
+                                  var audio5 = new Audio('./Rsounds/5.0 disillusioned.wav');
+                                  var audio6 = new Audio('./Rsounds/6.0 maniac.wav');
+                                  var audio7 = new Audio('./Rsounds/7.0 dawn.wav');
+                                  var audio8 = new Audio('./Rsounds/8.0 scout.wav');
+                                  var audio9 = new Audio('./Rsounds/9.0 doctor (all).wav');
+                                  var audio10 = new Audio('./Rsounds/10.0 field surgeon.wav');
+                                  var audio11 = new Audio('./Rsounds/11.0 hero (all).wav');
+                                  var audio12 = new Audio('./Rsounds/12.0 wake up.wav');
+                                  var audio13 = new Audio('./Rsounds/blank.wav');
+                                  var audio = [audio2, audio3, audio4, audio5, audio6, audio8, audio9, audio10, audio11];
+                                  audio14 = 0;
+                                  i = 0
+                                  $("#ok_button").click(function(){
+                                    x.style.display = 'none';
+                                    audio1.play();
+                                    if ($("#zombie1").css("border-color", "#ffff00") || $("#zombie2").css("border-color", "#ffff00") || $("#undead").css("border-color", "#ffff00") || $("#camo").css("border-color", "#ffff00")){
+                                        audio1.addEventListener("ended", function() {
+                                        audio14 = audio[i];
+                                        audio14.play();
+                                        i++;
+                                    });
+                                  }else{
+                                    audio1.addEventListener("ended", function() {
+                                    audio13.play();
+                                    i++;
+                                });
+                              };
+                                  if ($("#drifter").css("border-color", "#ffff00")){
+                                    if (audio13.duration > 0 && !audio13.paused){
+                                      audio13.addEventListener("ended", function() {
+                                      audio14 = audio[i];
+                                      audio14.play();
+                                      i++;
+                                      });
+                                  } else {
+                                      audio2.addEventListener("ended", function() {
+                                        audio14 = audio[i];
+                                        audio14.play();
+                                        i++;
+                                    });
+                                  };
+                                } else {
+                                  if (audio13.duration > 0 && !audio13.paused){
+                                    audio13.addEventListener("ended", function() {
+                                    audio13.play();
+                                    i++;
+                                    });
+                                  } else {
+                                    audio2.addEventListener("ended", function() {
+                                    audio13.play();
+                                    i++;
+                                });
+                              };
+                            };
+                                if ($("#scientist").css("border-color", "#ffff00")){
+                                if (audio13.duration > 0 && !audio13.paused){
+                                  audio13.addEventListener("ended", function() {
+                                    audio14 = audio[i];
+                                    audio14.play();
+                                    i++;
+                                  });
+                                } else {
+                                    audio3.addEventListener("ended", function() {
+                                      audio14 = audio[i];
+                                      audio14.play();
+                                      i++;
+                                });
+                              };
+                              } else {
+                              if (audio13.duration > 0 && !audio13.paused){
+                                audio13.addEventListener("ended", function() {
+                                audio13.play();
+                                i++;
+                                });
+                              } else {
+                                audio3.addEventListener("ended", function() {
+                                audio13.play();
+                                i++;
+                            });
+                          };
+                        };
+                              if ($("#disillusioned").css("border-color", "#ffff00")){
+                              if (audio13.duration > 0 && !audio13.paused){
+                                audio13.addEventListener("ended", function() {
+                                  audio14 = audio[i];
+                                  audio14.play();
+                                  i++;
+                                });
+                              } else {
+                                  audio4.addEventListener("ended", function() {
+                                    audio14 = audio[i];
+                                    audio14.play();
+                                    i++;
+                              });
+                            };
+                              } else {
+                            if (audio13.duration > 0 && !audio13.paused){
+                              audio13.addEventListener("ended", function() {
+                              audio13.play();
+                              i++;
+                              });
+                            } else {
+                              audio4.addEventListener("ended", function() {
+                              audio13.play();
+                              i++;
+                              });
+                            };
+                          };                                   audio5.addEventListener("ended", function() {
+                                if ($("#maniac").css("border-color", "#ffff00")){
+                                if (audio13.duration > 0 && !audio13.paused){
+                                  audio13.addEventListener("ended", function() {
+                                    audio14 = audio[i];
+                                    audio14.play();
+                                    i++;
+                                  });
+                                } else {
+                                    audio5.addEventListener("ended", function() {
+                                      audio14 = audio[i];
+                                      audio14.play();
+                                      i++;
+                                });
+                              };
+                              } else {
+                              if (audio13.duration > 0 && !audio13.paused){
+                                audio13.addEventListener("ended", function() {
+                                audio13.play();
+                                i++;
+                                });
+                              } else {
+                                audio6.addEventListener("ended", function() {
+                                audio13.play();
+                                i++;
+                            });
+                          };
+                        };
+                        if (audio13.duration > 0 && !audio13.paused){
+                          audio13.addEventListener("ended", function() {
+                          audio7.play();
+                          });
+                        } else {
+                            audio6.addEventListener("ended", function() {
+                            audio7.play();
+                        });
+                      };
+                              if ($("#scout").css("border-color", "#ffff00")){
+                              if (audio13.duration > 0 && !audio13.paused){
+                                audio13.addEventListener("ended", function() {
+                                  audio14 = audio[i];
+                                  audio14.play();
+                                  i++;
+                                });
+                              } else {
+                                  audio7.addEventListener("ended", function() {
+                                    audio14 = audio[i];
+                                    audio14.play();
+                                    i++;
+                              });
+                            };
+                            } else {
+                            if (audio13.duration > 0 && !audio13.paused){
+                              audio13.addEventListener("ended", function() {
+                              audio13.play();
+                              i++;
+                              });
+                            } else {
+                              audio7.addEventListener("ended", function() {
+                              audio13.play();
+                              i++;
+                          });
+                        };
+                      };
+                            if ($("#doctor").css("border-color", "#ffff00")){
+                            if (audio13.duration > 0 && !audio13.paused){
+                              audio13.addEventListener("ended", function() {
+                                audio14 = audio[i];
+                                audio14.play();
+                                i++;
+                              });
+                            } else {
+                                audio8.addEventListener("ended", function() {
+                                  audio14 = audio[i];
+                                  audio14.play();
+                                  i++;
+                            });
+                          };
+                          } else {
+                          if (audio13.duration > 0 && !audio13.paused){
+                            audio13.addEventListener("ended", function() {
+                            audio13.play();
+                            i++;
+                            });
+                          } else {
+                            audio8.addEventListener("ended", function() {
+                            audio13.play();
+                            i++;
+                        });
+                      };
+                    };
+                          if ($("#surgeon").css("border-color", "#ffff00")){
+                          if (audio13.duration > 0 && !audio13.paused){
+                            audio13.addEventListener("ended", function() {
+                              audio14 = audio[i];
+                              audio14.play();
+                              i++;
+                            });
+                          } else {
+                              audio9.addEventListener("ended", function() {
+                                audio14 = audio[i];
+                                audio14.play();
+                                i++;
+                          });
+                        };
+                        }else{
+                        if (audio13.duration > 0 && !audio13.paused){
+                          audio13.addEventListener("ended", function() {
+                          audio13.play();
+                          i++;
+                          });
+                        } else {
+                          audio9.addEventListener("ended", function() {
+                          audio13.play();
+                          i++;
+                      });
+                    };
+                  };
+                        if ($("#hero").css("border-color", "#ffff00")){
+                        if (audio13.duration > 0 && !audio13.paused){
+                          audio13.addEventListener("ended", function() {
+                            audio14 = audio[i];
+                            audio14.play();
+                            i++;
+                          });
+                        } else {
+                            audio10.addEventListener("ended", function() {
+                              audio14 = audio[i];
+                              audio14.play();
+                              i++;
+                        });
+                      };
+                      }else{
+                      if (audio13.duration > 0 && !audio13.paused){
+                        audio13.addEventListener("ended", function() {
+                        audio13.play();
+                        i++;
+                        });
+                      } else {
+                        audio10.addEventListener("ended", function() {
+                        audio13.play();
+                        i++;
+                    });
+                  };
+                };
+                if (audio13.duration > 0 && !audio13.paused){
+                  audio13.addEventListener("ended", function() {
+                  audio12.play();
+                  });
+                } else {
+                    audio5.addEventListener("ended", function() {
+                    audio12.play();
+                });
+              };
+  });
+});
+});
+  </script>
+  <style>
+  body{
+    background-color: black;
+  }
+  div{
+    color: white;
+  }
+  img{
+    width: 23%;
+    height: 13%;
+    border: 1px #000 solid;
+  }
+  /* Style the tab */
+div.tab {
+  margin-left: 25%;
+  margin-right: 25%;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-top: none;
+    color: #FFF;
+}
+  </style>
+</head>
+<body>
+  <div class="tab">
+<a href="Regularplay.html"><button class="tablinks" style="background-color: #FFF; color: #FFF;"></button></a>
+<a href="3playe.html"><button class="tablinks" style="background-color: #FFF; color: #FFF;">Express</button></a>
+</div>
+  <div align="center" id="Ready">
+    <h2>Click on characters to choose what cards will be played</h2>
+  <img id="zombie1" src="zombie-stalker-pencil_orig.jpg"/>
+  <img id="zombie2" src="zombie-stalker-pencil_orig.jpg"/>
+  <img id="undead" src="undead-zombie-pencil_orig.jpg"/>
+  <img id="camo" src="CAMO_ZOMBIE.jpg"/>
+  <img id="drifter" src="DRIFTER_PENCIL.jpg"/>
+  <img id="scientist" src="SCIENTIST_PENCIL.jpg"/>
+  <img id="disillusioned" src="DISILLUSIONED_PENCIL.jpg"/>
+  <img id="maniac" src="MANIAC_PENCIL.jpg"/>
+  <img id="scout" src="SCOUT_PENCIL.jpg"/>
+  <img id="doctor" src="DOCTOR_PENCIL.jpg"/>
+  <img id="surgeon" src="SURGEON_PENCIL.jpg"/>
+  <img id="hero" src="HERO_PENCIL.jpg"/>
+  <img id="children" src="INNOCENT CHILDREN__pencil.jpg"/>
+  <img id="survivalist" src="SURVIVALIST_PENCIL.jpg"/>
+  <img id="villager" src="FRIGHTENED SURVIVOR_PENCIL.jpg"/>
+  <img id="villager2" src="FRIGHTENED SURVIVOR_PENCIL.jpg"/>
+<button type="button" id="ok_button" style="width: 10%; height: 15%;">Ok</button>
+</div>
+</body>
+</html>
